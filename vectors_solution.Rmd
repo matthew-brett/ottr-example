@@ -1,0 +1,55 @@
+---
+title: "Ottr testing"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+Install [ottr](https://github.com/ucbds-infra/ottr):
+
+```{r}
+devtools::install_github("ucbds-infra/ottr@0.1.0")
+```
+
+
+## Some vectors
+
+We might be interested in the change in [estimated average daily high
+temperatures](http://berkeleyearth.lbl.gov/regions/global-land) over all land on
+Earth (in degrees Celsius) for the decades surrounding 1850, 1900, 1950, and
+2000.
+
+From the link above, these values are:
+
+* Decade surrounding 1850: 13.6
+* Decade surrounding 1900: 14.39
+* Decade surrounding 1950: 14.59
+* Decade surrounding 2000: 15.16
+
+Use the `c` function to make a new vector `mid_years` that contains these four
+years, that are the centers of the decades.  For example, the first value in
+`mid_years` should be 1850:
+
+```{r}
+mid_years <- c(1850, 1900, 1950, 2000)
+# Show the values
+mid_years
+```
+
+```{r}
+# Run this chunk to check your answer
+. = ottr::check("tests/mid_years.R")
+```
+
+Use the `c` function to make a new vector `high_temp` that contains these four corresponding temperature values.
+
+```{r}
+high_temps <- c(13.6, 14.39, 14.59, 15.16)
+# Show the values
+high_temps
+```
+
+```{r}
+# Run this chunk to check your answer
+. = ottr::check("tests/high_temps.R")
+```
