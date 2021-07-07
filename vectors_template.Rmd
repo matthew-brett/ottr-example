@@ -38,6 +38,8 @@ mid_years <- c(1850, 1900, 1950, 2000)
 mid_years
 ```
 
+The tests are in [testthat format](https://otter-grader.readthedocs.io/en/latest/test_files/testthat_format.html)
+
 ```{r}
 # Run this chunk to check your answer
 . = ottr::check("tests/mid_years.R")
