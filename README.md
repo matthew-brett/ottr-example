@@ -4,7 +4,7 @@ This is an example of using [ottr](https://github.com/ucbds-infra/ottr) in an
 RMarkdown notebook.
 
 See also the homework 1 example at
-<https://github.com/ucbds-infra/ottr-sample/blob/master/hw01/hw01.Rmd>.
+<https://github.com/ucbds-infra/ottr-sample/blob/master/hw01/hw01.Rmd> and the documentation at <https://otter-grader.readthedocs.io/en/latest/>.
 
 The exercise file the student gets is `vectors.Rmd`.  The solution is
 `vectors_solution.Rmd`.  The file from which to generate the exercise and
