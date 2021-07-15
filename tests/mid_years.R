@@ -11,6 +11,16 @@ cases:
     points: 1
 "
 
+test_that("mid_years_0", {
+  # Initial screening
+  expect_true(exists('mid_years'))
+})
+
+test_that("mid_years_0_1", {
+  # Initial screening
+  expect_true(is.numeric(mid_years))
+})
+
 test_that("mid_years_1", {
   # Initial screening
   expect_true(length(mid_years) == 4)

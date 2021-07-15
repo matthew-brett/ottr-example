@@ -11,6 +11,16 @@ cases:
     points: 1
 "
 
+test_that("high_temps_0", {
+  # Initial screening
+  expect_true(exists('high_temps'))
+})
+
+test_that("high_temps_0_1", {
+  # Initial screening
+  expect_true(is.numeric(high_temps))
+})
+
 test_that("high_temps_1", {
   # Initial screening
   expect_true(length(high_temps) == 4)
